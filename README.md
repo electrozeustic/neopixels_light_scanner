@@ -1,5 +1,7 @@
 neopixels_light_scanner
 =============================
+![DEMO](images/demoNLS480.gif)
+
 Circuito y su programación para hacer el efecto de luces moviéndose de un lado para otro en una barra de 8 neopixels al estilo de el coche (KITT) de la serie El Coche Fantástico (Knight Rider).
 Según el modo de funcionamiento, configurable mediante el código fuente antes de compilarlo, se puede usar: con la barra de neopixels (8 por defecto) solo o,
 con la barra de neopixels más un botón que sirve para pausar/reanudar el movimiento de las luces con una pulsación corta o encenderlas haciendo un
