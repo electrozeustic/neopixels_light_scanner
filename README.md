@@ -11,6 +11,12 @@ funcionamiento, que es usando la barra de neopixels junto a estos 3 potenciómet
 Aquí se pueden ver los componentes usados para el proyecto:
 ![MONTAJE](images/assembly.png)
 
+Se una board Pro Micro (microcontrolador Atmega32U4 a 5V y 16MHz) que es un clon chino de la Sparkfun Pro Micro, pero debería de funcionar con cualquiera,
+otro Arduino por ejemplo, que sea compatible con las librerías utilizadas, que funcione a 5V y tenga memoria suficiente. Haciendo adaptaciones en el hardware
+se podría usar con boards que se alimenten a 3.3V.
+
+Los pines del pulsador (digital) y de los potenciómetros (analógicos) se pueden cambiar en el código fuente.
+
 ## Código fuente (software)
 Usar la versión correspondiente según el entorno de programación que se vaya a utilizar.
 Hace falta instalar en el entorno de programación que vayas a utilizar las siguientes librerías antes de compilar el código fuente. Si usas el IDE de
@@ -20,9 +26,11 @@ al hacer el Build:
 - [FireTimer by PowerBroker2](https://github.com/PowerBroker2/FireTimer)
 
 ### Versión para el IDE de Arduino:
+Seleccionar el Arduino Leonardo en el menú Herramientas > Placa, si se usa el Pro Micro.
 [Código fuente para el IDE de Arduino](ArduinoIDE/)
 
 ### Versión para PlatformIO:
+Para la board Pro Micro.
 [Código fuente para PlatformIO](PlatformIO/)
 
 ## Licencia
