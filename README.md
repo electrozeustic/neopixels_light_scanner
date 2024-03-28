@@ -27,10 +27,12 @@ al hacer el Build:
 
 ### Versión para el IDE de Arduino:
 Seleccionar el Arduino Leonardo en el menú Herramientas > Placa, si se usa el Pro Micro.
+
 [Código fuente para el IDE de Arduino](ArduinoIDE/)
 
 ### Versión para PlatformIO:
 Para la board Pro Micro.
+
 [Código fuente para PlatformIO](PlatformIO/)
 
 ## Licencia
