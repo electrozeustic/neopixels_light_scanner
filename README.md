@@ -7,7 +7,7 @@ fade-in o apagarlas haciendo un fade-out, esto con una pulsación larga. O con l
 velocidad del movimiento de las luces, el tono del color (hue) y el brillo global de las mismas dentro de unos límites. Y el último modo de
 funcionamiento, que es usando la barra de neopixels junto a estos 3 potenciómetros solamente.
 
-## Esquema de montaje (hardware)
+## Esquema del montaje (hardware)
 Aquí se pueden ver los componentes usados para el proyecto:
 ![MONTAJE](images/assembly.png)
 
