@@ -30,7 +30,7 @@ al hacer el Build:
 * [FireTimer by PowerBroker2](https://github.com/PowerBroker2/FireTimer)
 
 ### Versión para el IDE de Arduino:
-Seleccionar el Arduino Leonardo en el *menú Herramientas > Placa*, si se programa un Pro Micro:
+Seleccionar el *Arduino Leonardo* en el *menú Herramientas > Placa*, si se programa un Pro Micro:
 
 [Código fuente para el IDE de Arduino](ArduinoIDE/)
 
