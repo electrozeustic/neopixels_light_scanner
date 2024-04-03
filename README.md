@@ -23,8 +23,8 @@ se podría usar con boards que se alimenten a 3.3V. Los pines del pulsador (digi
 ## Código fuente (software)
 Seleccionar la versión correspondiente según el entorno de programación que se vaya a utilizar.
 Hace falta instalar en el entorno de programación que vayas a utilizar las siguientes librerías antes de compilar el código fuente. Si usas el IDE de
-Arduino se instalan buscándolas en el Gestor de bibliotecas y dándole al botón de INSTALAR. En Visual Studio Code con PlatformIO se instalan automáticamente
-al hacer el Build:
+Arduino se instalan buscándolas en el *Gestor de bibliotecas* y dándole al botón de *INSTALAR*. En Visual Studio Code con PlatformIO se instalan automáticamente
+al hacer el *Build*:
 
 * [FastLED by Daniel Garcia](https://github.com/FastLED/FastLED)
 * [FireTimer by PowerBroker2](https://github.com/PowerBroker2/FireTimer)
