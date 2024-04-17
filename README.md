@@ -43,7 +43,7 @@ Para programar la board Pro Micro:
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=k_aON715wnU">
-         <img src="https://img.youtube.com/vi/k_aON715wnU/0.jpg" style="width:60%;">
+         <img src="https://img.youtube.com/vi/k_aON715wnU/0.jpg" style="width:75%;">
       </a>
 </div>
 
