@@ -10,7 +10,7 @@ Según el modo de funcionamiento, configurable mediante el código fuente antes 
 con la barra de neopixels más un botón que sirve para pausar/reanudar el movimiento de las luces con una pulsación corta o encenderlas haciendo un
 fade-in o apagarlas haciendo un fade-out, esto con una pulsación larga. O con la barra de neopixels, más el botón y 3 potenciómetros que controlan la
 velocidad del movimiento de las luces, el tono del color (hue) y el brillo global de las mismas dentro de unos límites. Y el último modo de
-funcionamiento, que es usando la barra de neopixels junto a estos 3 potenciómetros solamente.
+funcionamiento, que es usando la barra de neopixels junto a estos 3 potenciómetros solamente. Más abajo tienes un vídeo en donde se explica su funcionamiento.
 
 ## Esquema del montaje (hardware)
 Aquí se pueden ver los componentes usados para el proyecto:
@@ -38,6 +38,14 @@ Seleccionar el *Arduino Leonardo* en el *menú Herramientas > Placa*, si se prog
 Para programar la board Pro Micro:
 
 [Código fuente para PlatformIO](PlatformIO/)
+
+## Vídeo de YouTube en donde se explica su funcionamiento
+
+<div align="center">
+      <a href="https://www.youtube.com/watch?v=k_aON715wnU">
+         <img src="https://img.youtube.com/vi/k_aON715wnU/0.jpg" style="width:60%;">
+      </a>
+</div>
 
 ## Licencia
 Mirar el archivo [LICENSE.md](./LICENSE.md)
