@@ -5,41 +5,42 @@ neopixels_light_scanner
 </p>
 
 
-Circuito y su programación para hacer el efecto de luces moviéndose de un lado para otro en una barra de 8 neopixels al estilo de el coche (KITT) de la serie El Coche Fantástico (Knight Rider).
-Según el modo de funcionamiento, configurable mediante el código fuente antes de compilarlo, se puede usar: con la barra de neopixels (8 por defecto) solo o,
-con la barra de neopixels más un botón que sirve para pausar/reanudar el movimiento de las luces con una pulsación corta o encenderlas haciendo un
-fade-in o apagarlas haciendo un fade-out, esto con una pulsación larga. O con la barra de neopixels, más el botón y 3 potenciómetros que controlan la
-velocidad del movimiento de las luces, el tono del color (hue) y el brillo global de las mismas dentro de unos límites. Y el último modo de
-funcionamiento, que es usando la barra de neopixels junto a estos 3 potenciómetros solamente. Más abajo tienes un vídeo en donde se explica su funcionamiento.
+Circuit and its programming to make the effect of lights moving from one side to the other on a bar of 8 neopixels in the style of the car (KITT) of the Knight Rider series.
+Depending on the operating mode, which can be configured via the source code before compiling, it can be used: with the neopixel bar (8 by default) alone or,
+with the neopixel bar plus a button that serves to pause/resume the movement of the lights with a short press or turn them on/off by doing a
+fade-in or fade-out, this with a long press. Or with the neopixel bar, plus the button and 3 potentiometers that control the speed of the movement of the lights, the
+speed of the movement of the lights, the hue and the overall brightness of the lights within limits. And the last mode of
+operation, which is using the neopixel bar together with these 3 potentiometers only. Below is a video explaining how it works.
 
-## Esquema del montaje (hardware)
-Aquí se pueden ver los componentes usados para el proyecto:
+## Assembly diagram (hardware)
+Here you can see the components used for the project:
 ![MONTAJE](images/assembly.png)
 
 Se usa una board Pro Micro (microcontrolador Atmega32U4 a 5V y 16MHz) que es un clon chino de la Sparkfun Pro Micro, pero debería de funcionar con cualquiera,
 otro Arduino por ejemplo, que sea compatible con las librerías utilizadas, que funcione a 5V y tenga memoria suficiente. Haciendo adaptaciones en el hardware
 se podría usar con boards que se alimenten a 3.3V. Los pines del pulsador (digital) y de los potenciómetros (analógicos) se pueden cambiar en el código fuente.
 
-## Código fuente (software)
-Seleccionar la versión correspondiente según el entorno de programación que se vaya a utilizar.
-Hace falta instalar en el entorno de programación que vayas a utilizar las siguientes librerías antes de compilar el código fuente. Si usas el IDE de
-Arduino se instalan buscándolas en el *Gestor de bibliotecas* y dándole al botón de *INSTALAR*. En Visual Studio Code con PlatformIO se instalan automáticamente
-al hacer el *Build*:
+A Pro Micro board is used (Atmega32U4 microcontroller at 5V and 16MHz) which is a Chinese clone of the Sparkfun Pro Micro, but it should work with anyone, other Arduino for example, that is compatible with the libraries used, that works at 5V and have enough memory. By making adaptations to the hardware, it could be used with boards that are powered at 3.3V. The pushbutton (digital) and potentiometer (analog) pins can be changed in the source code.
+
+## Source code (software)
+Select the corresponding version according to the programming environment to be used.
+It is necessary to install the following libraries in the programming environment that you are going to use before compiling the source code. If you use the Arduino IDE, they are installed by searching for them in the *Library Manager* and clicking the *INSTALL* button. In Visual Studio Code with PlatformIO they are installed automatically
+when doing the *Build*:
 
 * [FastLED by Daniel Garcia](https://github.com/FastLED/FastLED)
 * [FireTimer by PowerBroker2](https://github.com/PowerBroker2/FireTimer)
 
-### Versión para el IDE de Arduino:
-Seleccionar el *Arduino Leonardo* en el *menú Herramientas > Placa*, si se programa un Pro Micro:
+### Arduino IDE version:
+Select the *Arduino Leonardo* in the *Tools menu > Board*, if a Pro Micro is programmed:
 
 [Código fuente para el IDE de Arduino](ArduinoIDE/)
 
-### Versión para PlatformIO:
-Para programar la board Pro Micro:
+### PlatformIO version:
+To program the Pro Micro board:
 
 [Código fuente para PlatformIO](PlatformIO/)
 
-## Vídeo de YouTube en donde se explica su funcionamiento
+## YouTube video explaining how it works
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=k_aON715wnU">
@@ -47,11 +48,9 @@ Para programar la board Pro Micro:
       </a>
 </div>
 
-## Licencia
-Mirar el archivo [LICENSE.md](./LICENSE.md)
+## Licence
+Read the archive: [LICENSE.md](./LICENSE.md)
 
-## Renuncia de responsabilidad
-Yo, electrozeustic (@ElectroZeusTIC) no me hago resposable del uso que se le pueda dar al software y al hardware usado en este proyecto por parte
-de otras personas, empresas, instituciones, etc. Se ofrece tal como es, para experimentar y probar. Puede tener errores y por lo tanto, no usar en
-entornos y situaciones críticas, ya que se puedan producir ciertos peligros con graves consecuencias. Las personas, empresas, entidades, etc que lo
-usen serán los únicos responsables de las consecuencias que puedan ocurrir.
+## Disclaimer
+I, electrozeustic (@ElectroZeusTIC), am not responsible for the use that may be made of the software and hardware used in this project by other people, companies, institutions, etc., in any way.
+Offered as is, for experimentation and testing. It may have errors and therefore Do not use in critical environments and situations, as certain dangers may occur with serious consequences. The persons, companies, entities, etc. that use it are solely responsible for the consequences that may occur.
