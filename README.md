@@ -16,10 +16,6 @@ operation, which is using the neopixel bar together with these 3 potentiometers 
 Here you can see the components used for the project:
 ![MONTAJE](images/assembly.png)
 
-Se usa una board Pro Micro (microcontrolador Atmega32U4 a 5V y 16MHz) que es un clon chino de la Sparkfun Pro Micro, pero debería de funcionar con cualquiera,
-otro Arduino por ejemplo, que sea compatible con las librerías utilizadas, que funcione a 5V y tenga memoria suficiente. Haciendo adaptaciones en el hardware
-se podría usar con boards que se alimenten a 3.3V. Los pines del pulsador (digital) y de los potenciómetros (analógicos) se pueden cambiar en el código fuente.
-
 A Pro Micro board is used (Atmega32U4 microcontroller at 5V and 16MHz) which is a Chinese clone of the Sparkfun Pro Micro, but it should work with anyone, other Arduino for example, that is compatible with the libraries used, that works at 5V and have enough memory. By making adaptations to the hardware, it could be used with boards that are powered at 3.3V. The pushbutton (digital) and potentiometer (analog) pins can be changed in the source code.
 
 ## Source code (software)
@@ -33,12 +29,12 @@ when doing the *Build*:
 ### Arduino IDE version:
 Select the *Arduino Leonardo* in the *Tools menu > Board*, if a Pro Micro is programmed:
 
-[Código fuente para el IDE de Arduino](ArduinoIDE/)
+[Source code for Arduino IDE](ArduinoIDE/)
 
 ### PlatformIO version:
 To program the Pro Micro board:
 
-[Código fuente para PlatformIO](PlatformIO/)
+[Source code for PlatformIO](PlatformIO/)
 
 ## YouTube video explaining how it works
 
